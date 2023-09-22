@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Header from "./components/Header/header";
 import Home from "./components/Home/home";
 import About from "./components/About/About";
+import Service from "./components/Service/service";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Service />
     </Fragment>
   );
 }
