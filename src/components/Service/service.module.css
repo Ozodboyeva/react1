@@ -65,9 +65,97 @@
   font-weight: 400;
   line-height: 30.006px;
 }
+.service__guidlines {
+  margin: 130px 0px;
+  border-radius: 24px;
+  background: #211f54;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  column-gap: 83px;
+}
+.service__guidline img {
+  width: 100%;
+}
+.service__guidline-text h2 {
+  width: 80%;
+  margin: 17px 0px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.984px;
+}
+.service__guidline-text h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.service__guidline-text p {
+  width: 80%;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+.service__guidline-btns {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.service__guidline-btn button {
+  padding: 26px 38px;
+  border: none;
+  border-radius: 14px;
+  background: #0075ff;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.phone img {
+  width: 100%;
+}
+.service__guidline-session h4 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.service__guidline-session span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36.008px;
+}
 @media only screen and (max-width: 1000px) {
   .service__cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .service__guidlines {
+    grid-template-columns: 100%;
+    row-gap: 30px;
+  }
+  .service__guidline img {
+    flex-grow: 2;
   }
 }
 @media only screen and (max-width: 500px) {
